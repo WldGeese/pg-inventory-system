@@ -100,7 +100,7 @@ class Game():
 		self.protimg = pg.image.load('img/upg_shieldSmall.png').convert_alpha()
 		self.atkimg = pg.image.load('img/upg_dagger.png').convert_alpha()
 		self.coinimg = pg.image.load('img/coin1.png').convert_alpha()
-		self.screen.blit(self.hp,(STATPOSX,25))
+		self.screen.blit(self.hp,(STATPOSX,125))
 		self.screen.blit(self.prot,(STATPOSX,75))
 		self.screen.blit(self.atk,(STATPOSX,125))
 		self.screen.blit(self.coins,(STATPOSX,175))
